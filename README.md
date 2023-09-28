@@ -1,9 +1,9 @@
 ### <p align=right>[`→` Modrinth](https://modrinth.com/mod/fabric-api)</p>
 
-# Example Mod
+# Edgeless Chat Screen
 
-This is an example mod.
+Makes your chat screen edgeless like the below!
 
 ## License
 
-This repository is licensed under the **[GNU General Public License v3.](LICENSE)**
+**Edgeless Chat Screen** is licensed under the **[GNU General Public License v3.](LICENSE)**

@@ -1,11 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.krlite.modid.mixin",
+  "package": "net.krlite.edgeless_cs.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
+    "ChatScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 0
