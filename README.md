@@ -1,8 +1,10 @@
-### <p align=right>[`→` Modrinth](https://modrinth.com/mod/fabric-api)</p>
+### <p align=right>[`→` Modrinth](https://modrinth.com/mod/edgeless-cs)</p>
 
 # Edgeless Chat Screen
 
-Makes your chat screen edgeless like the below!
+An extremely simple mod that makes your chat screen edgeless just like below!
+
+![Contrast](https://github.com/KrLite/Edgeless-Chat-Screen/blob/artwork/content/contrast.png)
 
 ## License
 
