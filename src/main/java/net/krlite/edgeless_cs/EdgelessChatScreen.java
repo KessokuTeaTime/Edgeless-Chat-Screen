@@ -11,5 +11,6 @@ public class EdgelessChatScreen implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
+		LOGGER.info("This tiny evil expands your chat screen! 😈");
 	}
 }
