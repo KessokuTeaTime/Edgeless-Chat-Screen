@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "edgeless_cs",
+  "id": "edgelesschatscreen",
   "version": "${version}",
 
   "name": "Edgeless Chat Screen",
-  "description": "Why Not Having an Edgeless Chat Screen?",
+  "description": "Why not having an edgeless chat screen?",
   "authors": [
     "KrLite"
   ],
   "contact": {
     "homepage": "https://github.com/KrLite",
-    "sources": "https://github.com/KrLite/Edgeless-Chat-Screen"
+    "sources": "https://github.com/KrLite/Mod.Edgeless-Chat-Screen"
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/edgeless_cs/icon.png",
+  "icon": "assets/edgelesschatscreen/icon.png",
 
   "environment": "client",
   "entrypoints": {
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "edgeless_cs.mixins.json"
+    "edgelesschatscreen.mixins.json"
   ],
 
   "depends": {
