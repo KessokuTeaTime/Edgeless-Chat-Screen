@@ -4,7 +4,7 @@
 
 An extremely simple mod that makes your chat screen edgeless just like below!
 
-![Contrast](https://github.com/KrLite/Edgeless-Chat-Screen/blob/artwork/content/contrast.png)
+![Contrast](https://github.com/KrLite/Mod.Edgeless-Chat-Screen/blob/artwork/content/contrast.png)
 
 ## License
 

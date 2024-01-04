@@ -1,16 +1,14 @@
-package net.krlite.edgeless_cs;
+package net.krlite.edgelesschatscreen;
 
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class EdgelessChatScreen implements ClientModInitializer {
-	public static final String NAME = "Edgeless Chat Screen", ID = "edgeless_cs";
+	public static final String NAME = "Edgeless Chat Screen", ID = "edgelesschatscreen";
 	public static final Logger LOGGER = LoggerFactory.getLogger(ID);
 
 	@Override
 	public void onInitializeClient() {
-		LOGGER.info("This tiny evil expands your chat screen! 😈");
 	}
 }
