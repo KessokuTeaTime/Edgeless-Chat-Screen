@@ -1,4 +1,4 @@
-### <p align=right>[`→` Modrinth](https://modrinth.com/mod/edgeless-cs)</p>
+### <p align=right>[`→` Modrinth](https://modrinth.com/mod/edgeless-chat-screen)</p>
 
 # Edgeless Chat Screen
 
