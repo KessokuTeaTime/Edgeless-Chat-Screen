@@ -9,8 +9,9 @@
     "KrLite"
   ],
   "contact": {
-    "homepage": "https://github.com/KrLite",
-    "sources": "https://github.com/KrLite/Mod.Edgeless-Chat-Screen"
+    "homepage": "https://modrinth.com/mod/edgeless-chat-screen",
+    "sources": "https://github.com/KrLite/Mod.Edgeless-Chat-Screen",
+    "issues": "https://github.com/KrLite/Mod.Edgeless-Chat-Screen/issues"
   },
 
   "license": "GPL-3.0",
@@ -19,7 +20,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "net.krlite.edgeless_cs.EdgelessChatScreen"
+      "net.krlite.edgelesschatscreen.EdgelessChatScreen"
     ]
   },
   "mixins": [
