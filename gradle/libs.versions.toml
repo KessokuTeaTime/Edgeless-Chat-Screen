@@ -1,7 +1,7 @@
 [versions]
 maven-group = "band.kessokuteatime"
 archives-name = "edgelesschatscreen"
-mod = "1.1.0"
+mod = "1.1.1"
 loader = "fabric"
 
 minecraft = "1.19"
