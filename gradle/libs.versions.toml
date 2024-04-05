@@ -18,7 +18,7 @@ id-curseforge = "998249"
 # display
 display-name = "Edgeless Chat Screen"
 display-loader = "Fabric"
-display-version = "1.20.x+"
+display-version = "1.20.x"
 
 [libraries]
 minecraft = { group = "com.mojang", name = "minecraft", version.ref = "minecraft" }
