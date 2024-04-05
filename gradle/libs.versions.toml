@@ -1,5 +1,5 @@
 [versions]
-maven-group = "net.krlite"
+maven-group = "band.kessokuteatime"
 archives-name = "edgelesschatscreen"
 mod = "1.1.0"
 loader = "fabric"

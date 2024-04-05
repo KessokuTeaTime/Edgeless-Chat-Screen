@@ -1,4 +1,4 @@
-package net.krlite.edgelesschatscreen;
+package band.kessokuteatime.edgelesschatscreen;
 
 import net.fabricmc.api.ClientModInitializer;
 import org.slf4j.Logger;

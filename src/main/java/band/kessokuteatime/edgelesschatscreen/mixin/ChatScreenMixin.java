@@ -1,4 +1,4 @@
-package net.krlite.edgelesschatscreen.mixin;
+package band.kessokuteatime.edgelesschatscreen.mixin;
 
 import net.minecraft.client.gui.screen.ChatScreen;
 import org.spongepowered.asm.mixin.Mixin;

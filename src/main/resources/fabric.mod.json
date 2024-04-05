@@ -6,12 +6,13 @@
   "name": "${display.name}",
   "description": "Why not having an edgeless chat screen?",
   "authors": [
+    "Kessoku Tea Time",
     "KrLite"
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/edgeless-chat-screen",
-    "sources": "https://github.com/KrLite/Mod.Edgeless-Chat-Screen",
-    "issues": "https://github.com/KrLite/Mod.Edgeless-Chat-Screen/issues"
+    "sources": "https://github.com/KessokuTeaTime/Edgeless-Chat-Screen",
+    "issues": "https://github.com/KessokuTeaTime/Edgeless-Chat-Screen/issues"
   },
 
   "license": "GPL-3.0",
@@ -20,7 +21,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "net.krlite.edgelesschatscreen.EdgelessChatScreen"
+      "band.kessokuteatime.edgelesschatscreen.EdgelessChatScreen"
     ]
   },
   "mixins": [
@@ -29,7 +30,7 @@
 
   "depends": {
     "fabricloader": "*",
-    "minecraft": "1.19.x"
+    "minecraft": "1.20.x"
   },
   "suggests": {
   }
