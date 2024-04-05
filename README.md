@@ -1,11 +1,3 @@
-### <p align=right>[`→` Modrinth](https://modrinth.com/mod/edgeless-chat-screen)</p>
+### <p align=right>[Main Branch `←`](https://github.com/KessokuTeaTime/Edgeless-Chat-Screen)&emsp;[`→` CurseForge](https://www.curseforge.com/minecraft/mc-mods/edgeless-chat-screen)&ensp;[`→` Modrinth](https://modrinth.com/mod/bounced)</p>
 
-# Edgeless Chat Screen
-
-An extremely simple mod that makes your chat screen edgeless just like below!
-
-![Contrast](https://github.com/KrLite/Mod.Edgeless-Chat-Screen/blob/artwork/content/contrast.png)
-
-## License
-
-**Edgeless Chat Screen** is licensed under the **[GNU General Public License v3.](LICENSE)**
+### Edgeless Chat Screen for Fabric `1.20~1.20.2`
