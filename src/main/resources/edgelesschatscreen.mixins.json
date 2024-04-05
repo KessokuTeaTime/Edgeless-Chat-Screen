@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ChatScreenMixin"
+    "band.kessokuteatime.edgelesschatscreen.mixin.ChatScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 0
