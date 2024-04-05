@@ -6,4 +6,4 @@
 
 ### Ownership Transfer
 
-- **Transfered** ownership to **[Kessoku Tea Time.](https://github.com/KessokuTeaTime)**
+- **Transferred** ownership to **[Kessoku Tea Time.](https://github.com/KessokuTeaTime)**
