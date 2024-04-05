@@ -3,7 +3,7 @@
   "id": "edgelesschatscreen",
   "version": "${version}",
 
-  "name": "Edgeless Chat Screen",
+  "name": "${display.name}",
   "description": "Why not having an edgeless chat screen?",
   "authors": [
     "KrLite"
