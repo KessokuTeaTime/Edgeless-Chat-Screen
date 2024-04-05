@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.krlite.edgelesschatscreen.mixin",
+  "package": "band.kessokuteatime.edgelesschatscreen.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-	  "band.kessokuteatime.edgelesschatscreen.mixin.ChatScreenMixin"
+    "ChatScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 0

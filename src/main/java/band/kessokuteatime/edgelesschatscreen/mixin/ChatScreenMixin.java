@@ -12,7 +12,7 @@ public class ChatScreenMixin {
             method = "render",
             at = @At(
                     value = "INVOKE",
-                    target = "Lnet/minecraft/client/gui/screen/ChatScreen;fill(Lnet/minecraft/client/util/math/MatrixStack;IIIII)V"
+                    target = "Lnet/minecraft/client/gui/DrawContext;fill(IIIII)V"
             )
     )
     /* MatrixStack *, int x1, int x2, int y1, int y2, int color */
