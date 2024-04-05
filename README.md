@@ -1,4 +1,4 @@
-### <p align=right>[`→` Modrinth](https://modrinth.com/mod/edgeless-chat-screen)</p>
+### <p align=right>[`→` CurseForge](https://www.curseforge.com/minecraft/mc-mods/edgeless-chat-screen)&ensp;[`→` Modrinth](https://modrinth.com/mod/edgeless-chat-screen)</p>
 
 # Edgeless Chat Screen
 
