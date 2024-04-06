@@ -2,11 +2,11 @@
 maven-group = "band.kessokuteatime"
 archives-name = "edgelesschatscreen"
 mod = "1.1.1"
-loader = "forge"
+loader = "neoforge"
 
-minecraft = "1.20.1"
-yarn = "1.20.1+build.10"
-forge = "1.20.1-47.2.21"
+minecraft = "1.20.4"
+yarn = "1.20.4+build.3"
+neoforge = "20.4.219"
 architectury-loom = "1.5-SNAPSHOT"
 modpublisher = "2.1.0"
 
@@ -16,13 +16,13 @@ id-curseforge = "998249"
 
 # display
 display-name = "Edgeless Chat Screen"
-display-loader = "Forge"
+display-loader = "NeoForge"
 display-version = "1.20.x"
 
 [libraries]
 minecraft = { group = "com.mojang", name = "minecraft", version.ref = "minecraft" }
 yarn = { group = "net.fabricmc", name = "yarn", version.ref = "yarn" }
-forge = { group = "net.minecraftforge", name = "forge", version.ref = "forge" }
+neoforge = { group = "net.neoforged", name = "neoforge", version.ref = "neoforge" }
 
 [plugins]
 architectury-loom = { id = "dev.architectury.loom", version.ref = "architectury-loom" }

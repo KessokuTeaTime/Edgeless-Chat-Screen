@@ -1,11 +1,11 @@
 modLoader = "javafml"
-loaderVersion = "[43,)"
+loaderVersion = "[1,)"
 license = "GPL-3.0"
 
 [[mods]]
 modId = "edgelesschatscreen"
 version = "${version}"
-displayName = "Stenographer"
+displayName = "Edgeless Chat Screen"
 displayURL = "https://github.com/KessokuTeaTime/Edgeless-Chat-Screen"
 authors = "Kessoku Tea Time"
 description = '''
@@ -13,10 +13,13 @@ Why not having an edgeless chat screen?
 '''
 logoFile = "icon.png"
 
+[[mixins]]
+config = "edgelesschatscreen.mixins.json"
+
 [[dependencies.edgelesschatscreen]]
-modId = "forge"
+modId = "neoforge"
 mandatory = true
-versionRange = "[43,)"
+versionRange = "[20,)"
 ordering = "NONE"
 side = "BOTH"
 

@@ -20,22 +20,15 @@ display.name = libs.versions.display.name.get()
 display.loader = libs.versions.display.loader.get()
 display.version = libs.versions.display.version.get()
 
-loom {
-	forge {
-		mixinConfigs = [
-				"edgelesschatscreen.mixins.json"
-		]
-	}
-}
-
 repositories {
 	mavenCentral()
+	maven { url = "https://maven.neoforged.net/releases/" }
 }
 
 dependencies {
 	minecraft(libs.minecraft)
 	mappings(libs.yarn) { artifact { classifier = "v2" } }
-	forge(libs.forge)
+	neoForge(libs.neoforge)
 }
 
 java {
