@@ -5,7 +5,7 @@ license = "GPL-3.0"
 [[mods]]
 modId = "edgelesschatscreen"
 version = "${version}"
-displayName = "Stenographer"
+displayName = "Edgeless Chat Screen"
 displayURL = "https://github.com/KessokuTeaTime/Edgeless-Chat-Screen"
 authors = "Kessoku Tea Time"
 description = '''
