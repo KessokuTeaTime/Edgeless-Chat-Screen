@@ -1,0 +1,80 @@
+class Display {
+	String name
+	String loader
+	String version
+}
+
+plugins {
+	id "maven-publish"
+	alias(libs.plugins.architectury.loom)
+	alias(libs.plugins.modpublisher)
+}
+
+Display display = new Display()
+
+group = libs.versions.maven.group.get()
+version = "${libs.versions.mod.get()}-${libs.versions.loader.get()}${libs.versions.minecraft.get()}"
+base.archivesName = libs.versions.archives.name.get()
+
+display.name = libs.versions.display.name.get()
+display.loader = libs.versions.display.loader.get()
+display.version = libs.versions.display.version.get()
+
+loom {
+	forge {
+		mixinConfigs = [
+				"edgelesschatscreen.mixins.json"
+		]
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	minecraft(libs.minecraft)
+	mappings(libs.yarn) { artifact { classifier = "v2" } }
+	forge(libs.forge)
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
+
+	withSourcesJar()
+}
+
+tasks {
+	processResources {
+		filesMatching("META-INF/mods.toml") {
+			expand "version": libs.versions.mod.get()
+		}
+	}
+
+	jar {
+		from("LICENSE")
+	}
+}
+
+publisher {
+	apiKeys {
+		modrinth(System.getenv("MODRINTH_TOKEN"))
+		curseforge(System.getenv("CURSEFORGE_TOKEN"))
+	}
+
+	setModrinthID(libs.versions.id.modrinth)
+	setCurseID(libs.versions.id.curseforge)
+
+	setVersionType("release")
+	setVersion(project.version.toString())
+	setGameVersions("1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4")
+	setLoaders("neoforge")
+
+	setDisplayName("${display.name} ${libs.versions.mod.get()} for ${display.loader} ${display.version}")
+
+	setArtifact(remapJar)
+	addAdditionalFile(remapSourcesJar)
+
+	setChangelog(file("CHANGELOG.md"))
+}
