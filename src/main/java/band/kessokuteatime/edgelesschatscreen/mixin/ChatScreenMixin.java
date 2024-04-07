@@ -15,7 +15,7 @@ public class ChatScreenMixin {
                     target = "Lnet/minecraft/client/gui/DrawContext;fill(IIIII)V"
             )
     )
-    /* MatrixStack *, int x1, int x2, int y1, int y2, int color */
+    /* int x1, int x2, int y1, int y2, int color */
     private void fillEdgeless(Args args) {
         args.set(1, (int) args.get(1) - 2);
         args.set(3, (int) args.get(3) + 2);
