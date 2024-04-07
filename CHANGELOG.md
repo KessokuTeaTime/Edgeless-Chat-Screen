@@ -1,3 +1,3 @@
 ### Fixes
 
-- **Fixed** [#4.](https://github.com/KessokuTeaTime/Edgeless-Chat-Screen/issues/4)
+- **Fixed** [#5.](https://github.com/KessokuTeaTime/Edgeless-Chat-Screen/issues/5)
