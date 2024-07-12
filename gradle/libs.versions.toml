@@ -1,12 +1,12 @@
 [versions]
 maven-group = "band.kessokuteatime"
 archives-name = "edgelesschatscreen"
-mod = "1.1.2"
+mod = "1.1.3"
 loader = "fabric"
 
 minecraft = "1.20"
 yarn = "1.20+build.1"
-fabric-loader = "0.15.9"
+fabric-loader = "0.15.11"
 fabric-api = "0.83.0+1.20"
 fabric-loom = "1.6-SNAPSHOT"
 modpublisher = "2.1.0"
