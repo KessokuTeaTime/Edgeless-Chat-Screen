@@ -3,7 +3,7 @@
   "id": "edgelesschatscreen",
   "version": "${version}",
 
-  "name": "${display.name}",
+  "name": "${display.name.get()}",
   "description": "Why not having an edgeless chat screen?",
   "authors": [
     "Kessoku Tea Time",
